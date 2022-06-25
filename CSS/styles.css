@@ -1,0 +1,189 @@
+/* Color Palette 
+#7a121b - wine
+#fad427 - yellow*/
+
+
+/* Global Styles
+---------------------------------- */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header styles
+------------------------------ */
+
+header{
+    padding: 30px 50px;
+    height: 270px;
+    background-color: #7a121b;
+    color: white;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    float: left;
+}
+
+header .signin{
+    padding-top: 40px;
+    float: right;
+}
+
+header .signin a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Main styles
+------------------------------ */
+
+main{
+    margin-bottom: 40px;
+}
+
+main a{
+    color: black;
+}
+
+main h1{
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.main{
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 10px #919191;
+    width: 400px;
+    height: 400px;
+    top: 160px;
+    margin: -110px auto 10px;
+}
+
+.link-group{
+    padding: 40px 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #fad427;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.links .img{
+    width: 10%;
+}
+
+.links h3{
+    width: 90%;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.line{
+    height: 30px;
+    width: 1px;
+    background-color: #fad427;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+main .signin{
+    color: black;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+main .signin a{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* Footer styles
+------------------------------ */
+
+hr{
+    margin-top: 70px;
+    border-top: 1px solid #fad427;
+}
+
+.footer{
+    width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h6{
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+footer p{
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+
+/*-----------------------------------*/
+@media screen and (max-width: 720px) {
+    /* Footer styles
+    ------------------------------ */
+    .footer{
+        width: 90%;
+    }
+
+@media screen and (max-width: 520px) {
+    /* header styles
+    ------------------------------ */
+    header{
+        height: 300px;
+        padding: 30px 15px;
+    }
+    
+    .logo img{
+        width: 125px;
+        height: 75px;
+    }
+
+    .signin p{
+        width: 150px;
+        text-align: center;
+    }
+
+    /* Main styles
+    ------------------------------ */
+    .main{
+        padding: 30px 10px;
+        width: 90%;
+        height: 400px;
+        margin: -100px auto 10px;
+    }
+
+}
+
+}
+
